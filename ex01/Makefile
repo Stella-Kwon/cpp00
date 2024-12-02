@@ -6,17 +6,24 @@
 #    By: skwon2 <skwon2@student.hive.fi>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/26 16:48:37 by skwon2            #+#    #+#              #
-#    Updated: 2024/11/26 16:54:17 by skwon2           ###   ########.fr        #
+#    Updated: 2024/12/02 22:37:59 by skwon2           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = PhoneBookTool
+NAME = Phonebook_App
 
 COMPILER = c++
 
-SRC = megaphone.cpp
+SRC = 	main.cpp \
+		main_utils.cpp\
+		cmd_add_exit.cpp\
+		cmd_search.cpp\
+		ContactGet.cpp\
+		ContactSet.cpp\
+		ContactUtils.cpp\
+		PhoneBook.cpp
 
-FLAGS = -Wall -Wextra -Werror -std=c++98
+FLAGS = -Wall -Wextra -Werror -std=c++20
 
 INC = -I.
 
