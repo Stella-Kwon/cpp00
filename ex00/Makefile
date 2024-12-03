@@ -6,7 +6,7 @@
 #    By: skwon2 <skwon2@student.hive.fi>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/26 14:03:05 by skwon2            #+#    #+#              #
-#    Updated: 2024/12/03 16:51:49 by skwon2           ###   ########.fr        #
+#    Updated: 2024/12/03 17:07:26 by skwon2           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,14 +24,33 @@ all: $(NAME)
 
 $(NAME) : $(OBJ)
 	@$(COMPILER) $(FLAGS) -o $(NAME) $(OBJ)
-	@echo "\n$(Red)......WAIT$(Ending)\n"
-	@echo "$(Green)-----------$(Ending)"
-	@echo "$(Green)-------------- $(Ending)"
-	@echo "$(Green)------------------- $(Ending)"
-	@echo "$(Green)---------------------- $(Ending)"
-	@echo "$(Green)--------------------------$(Ending)"
-	@echo "$(Green)------------------------------"
-	@echo "📣 📣 📣 📣 📣 📣 📣 📣 📣 📣 📣"
+		@echo "$(Green)                  ⭐                $(Ending)"
+	@echo "$(Green)                  *                 $(Ending)"
+	@echo "$(Green)                 ***                $(Ending)"
+	@echo "$(Green)                *****               $(Ending)"
+	@echo "$(Green)               *******              $(Ending)"
+	@echo "$(Green)              *********             $(Ending)"
+	@echo "$(Green)             ***********            $(Ending)"
+	@echo "$(Green)            *************           $(Ending)"
+	@echo "$(Green)           v***v*****v***v          $(Ending)"
+	@echo "$(Green)          *v*v***v*v**v*v**         $(Ending)"
+	@echo "$(Green)         ***v*****v****v****        $(Ending)"
+	@echo "$(Green)        *********************       $(Ending)"
+	@echo "$(Green)       ***********************      $(Ending)"
+	@echo "$(Green)      *************************     $(Ending)"
+	@echo "$(Green)     ***************************    $(Ending)"
+	@echo "$(Green)    *****************************   $(Ending)"
+	@echo "$(Green)   **********            *********  $(Ending)"
+	@echo "$(Brown)              ||||||||             $(Ending)"
+	@echo "$(Brown)              ||||||||             $(Ending)"
+	@echo "$(Brown)              ||||||||             $(Ending)"
+	@echo "$(Brown)              ||||||||             $(Ending)"
+	@echo "$(Brown)              ||||||||             $(Ending)"
+	@echo "$(Brown)              |______|             $(Ending)"
+	@echo "$(Brown)                                   $(Ending)"
+	@echo "$(Red)  🎄🎁🎅🎉 Merry Christmas! 🎅🎁🎄   $(Ending)"
+	@echo "$(Green)⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐  $(Ending)"
+	@echo "$(Red)🎄🎅🎁✨ Wishing you a joyful Christmas! 🎁🎅🎄  $(Ending)"
 	@echo "\n$(Yellow)=> $(NAME) HAS BEEN CREATED$(Ending)\n"
 
 %.o : %.cpp
