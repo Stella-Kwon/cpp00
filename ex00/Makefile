@@ -6,7 +6,7 @@
 #    By: skwon2 <skwon2@student.hive.fi>            +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/11/26 14:03:05 by skwon2            #+#    #+#              #
-#    Updated: 2024/11/26 15:01:17 by skwon2           ###   ########.fr        #
+#    Updated: 2024/12/03 16:51:49 by skwon2           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ COMPILER = c++
 
 SRC = megaphone.cpp
 
-FLAGS = -Wall -Wextra -Werror -std=c++98
+FLAGS = -Wall -Wextra -Werror -std=c++20
 
 OBJ = $(SRC:.cpp=.o)
 

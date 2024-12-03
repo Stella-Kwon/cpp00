@@ -6,7 +6,7 @@
 /*   By: skwon2 <skwon2@student.hive.fi>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/26 14:02:52 by skwon2            #+#    #+#             */
-/*   Updated: 2024/11/26 16:19:43 by skwon2           ###   ########.fr       */
+/*   Updated: 2024/12/01 10:53:43 by skwon2           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -50,6 +50,7 @@ int main(int argc, char **argv)
     {
        for(i = 1; i < argc; i++)
        {
+        //first, last(until the '\0'), result, unary_op => i will affect each of element but not \0
             std::transform(argv[i], argv[i] + std::strlen(argv[i]), argv[i], ::toupper);
             std::cout << argv[i];
        }
